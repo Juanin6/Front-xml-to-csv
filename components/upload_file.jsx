@@ -51,11 +51,11 @@ export default function Upload_File() {
     formData.append("file", selectedFile)
 
     try {
-      const urlApi = process.env.NEXT_PUBLIC_API_URL;
-      const response = await fetch(urlApi, {
-        method: "POST",
-        body: formData,
-      })
+      const response = await fetch("/api/convertir", {
+  method: "POST",
+  body: formData,
+});
+  console.log(response)
 
       if (!response.ok) throw new Error("Error al convertir el archivo")
 
