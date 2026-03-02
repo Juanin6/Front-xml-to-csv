@@ -83,7 +83,8 @@ export default function Upload_File() {
     <div className="min-h-screen bg-gray-50 flex items-center justify-center p-4">
       <Card className="w-full max-w-md">
         <CardHeader className="text-center">
-          <CardTitle className="text-2xl font-bold text-blue-600">Transformar XML a CSV</CardTitle>
+          <CardTitle className="text-2xl font-bold text-blue-500">Pradma</CardTitle>
+          <CardTitle className="text-1xl font-bold text-blue-600">Transformar XML a CSV</CardTitle>
           <CardDescription>Sube tu archivo XML y conviértelo a formato CSV de manera sencilla</CardDescription>
         </CardHeader>
         <CardContent className="space-y-6">
